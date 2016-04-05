@@ -7,4 +7,4 @@
 
 ## License
 
-WeChat is released under the MIT license. See LICENSE for details.
+ThemeChangeDemo is released under the MIT license. See LICENSE for details.
