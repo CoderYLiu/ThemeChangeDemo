@@ -2,7 +2,7 @@
 一种主题切换效果的实现方式
 
 ## 效果图
-![demo](https://github.com/CoderYLiu/ThemeChangeDemo/Preview/chengeTheme.gif)
+![demo](https://github.com/CoderYLiu/ThemeChangeDemo/blob/master/Preview/chengeTheme.gif)
 
 
 ## License
