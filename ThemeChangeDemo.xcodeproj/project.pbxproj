@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD50DA441CB409650076FC45 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA211CB409650076FC45 /* background.png */; };
+		CD50DA451CB409650076FC45 /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA221CB409650076FC45 /* button_background.png */; };
+		CD50DA461CB409650076FC45 /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA231CB409650076FC45 /* button_background@2x.png */; };
+		CD50DA471CB409650076FC45 /* button_delete_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA241CB409650076FC45 /* button_delete_background.png */; };
+		CD50DA481CB409650076FC45 /* button_delete_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA251CB409650076FC45 /* button_delete_background@2x.png */; };
+		CD50DA491CB409650076FC45 /* fontColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA261CB409650076FC45 /* fontColor.plist */; };
+		CD50DA4A1CB409650076FC45 /* navigationbar_back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA271CB409650076FC45 /* navigationbar_back.png */; };
+		CD50DA4B1CB409650076FC45 /* navigationbar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA281CB409650076FC45 /* navigationbar_back@2x.png */; };
+		CD50DA4C1CB409650076FC45 /* navigationbar_back_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */; };
+		CD50DA4D1CB409650076FC45 /* navigationbar_back_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */; };
+		CD50DA621CB409650076FC45 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA421CB409650076FC45 /* theme.plist */; };
+		CD50DA631CB409650076FC45 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA431CB409650076FC45 /* title_logo.png */; };
+		CD50DA651CB409900076FC45 /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA641CB409900076FC45 /* Skins */; };
+		CDF39AAF1CB3F052000A87A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AAE1CB3F052000A87A6 /* main.m */; };
+		CDF39AB21CB3F052000A87A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AB11CB3F052000A87A6 /* AppDelegate.m */; };
+		CDF39AB81CB3F052000A87A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF39AB61CB3F052000A87A6 /* Main.storyboard */; };
+		CDF39ABA1CB3F052000A87A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF39AB91CB3F052000A87A6 /* Assets.xcassets */; };
+		CDF39ABD1CB3F052000A87A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF39ABB1CB3F052000A87A6 /* LaunchScreen.storyboard */; };
+		CDF39AC81CB3F052000A87A6 /* ThemeChangeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AC71CB3F052000A87A6 /* ThemeChangeDemoTests.m */; };
+		CDF39AD31CB3F052000A87A6 /* ThemeChangeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AD21CB3F052000A87A6 /* ThemeChangeDemoUITests.m */; };
+		CDF39AE21CB3F110000A87A6 /* LYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AE11CB3F110000A87A6 /* LYMainViewController.m */; };
+		CDF39AE71CB3F1D5000A87A6 /* LYThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AE61CB3F1D5000A87A6 /* LYThemeManager.m */; };
+		CDF39AEA1CB3F746000A87A6 /* LYThemeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AE91CB3F746000A87A6 /* LYThemeLabel.m */; };
+		CDF39AED1CB3F75D000A87A6 /* LYThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AEC1CB3F75D000A87A6 /* LYThemeButton.m */; };
+		CDF39AF01CB3F771000A87A6 /* LYThemeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AEF1CB3F771000A87A6 /* LYThemeImageView.m */; };
+		CDF39AF31CB3F78B000A87A6 /* LYThemeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AF21CB3F78B000A87A6 /* LYThemeUtil.m */; };
+		CDF39B441CB3FE69000A87A6 /* LYThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39B431CB3FE69000A87A6 /* LYThemeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF39AC41CB3F052000A87A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF39AA21CB3F052000A87A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF39AA91CB3F052000A87A6;
+			remoteInfo = ThemeChangeDemo;
+		};
+		CDF39ACF1CB3F052000A87A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF39AA21CB3F052000A87A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF39AA91CB3F052000A87A6;
+			remoteInfo = ThemeChangeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD50DA211CB409650076FC45 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CD50DA221CB409650076FC45 /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		CD50DA231CB409650076FC45 /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		CD50DA241CB409650076FC45 /* button_delete_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_delete_background.png; sourceTree = "<group>"; };
+		CD50DA251CB409650076FC45 /* button_delete_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_delete_background@2x.png"; sourceTree = "<group>"; };
+		CD50DA261CB409650076FC45 /* fontColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontColor.plist; sourceTree = "<group>"; };
+		CD50DA271CB409650076FC45 /* navigationbar_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_back.png; sourceTree = "<group>"; };
+		CD50DA281CB409650076FC45 /* navigationbar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back@2x.png"; sourceTree = "<group>"; };
+		CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_back_highlighted.png; sourceTree = "<group>"; };
+		CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back_highlighted@2x.png"; sourceTree = "<group>"; };
+		CD50DA421CB409650076FC45 /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
+		CD50DA431CB409650076FC45 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		CD50DA641CB409900076FC45 /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
+		CDF39AAA1CB3F052000A87A6 /* ThemeChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF39AAE1CB3F052000A87A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF39AB01CB3F052000A87A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF39AB11CB3F052000A87A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF39AB71CB3F052000A87A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF39AB91CB3F052000A87A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF39ABC1CB3F052000A87A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF39ABE1CB3F052000A87A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF39AC31CB3F052000A87A6 /* ThemeChangeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF39AC71CB3F052000A87A6 /* ThemeChangeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeDemoTests.m; sourceTree = "<group>"; };
+		CDF39AC91CB3F052000A87A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF39ACE1CB3F052000A87A6 /* ThemeChangeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF39AD21CB3F052000A87A6 /* ThemeChangeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeDemoUITests.m; sourceTree = "<group>"; };
+		CDF39AD41CB3F052000A87A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF39AE01CB3F110000A87A6 /* LYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMainViewController.h; sourceTree = "<group>"; };
+		CDF39AE11CB3F110000A87A6 /* LYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMainViewController.m; sourceTree = "<group>"; };
+		CDF39AE51CB3F1D5000A87A6 /* LYThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeManager.h; sourceTree = "<group>"; };
+		CDF39AE61CB3F1D5000A87A6 /* LYThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeManager.m; sourceTree = "<group>"; };
+		CDF39AE81CB3F746000A87A6 /* LYThemeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeLabel.h; sourceTree = "<group>"; };
+		CDF39AE91CB3F746000A87A6 /* LYThemeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeLabel.m; sourceTree = "<group>"; };
+		CDF39AEB1CB3F75D000A87A6 /* LYThemeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeButton.h; sourceTree = "<group>"; };
+		CDF39AEC1CB3F75D000A87A6 /* LYThemeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeButton.m; sourceTree = "<group>"; };
+		CDF39AEE1CB3F771000A87A6 /* LYThemeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeImageView.h; sourceTree = "<group>"; };
+		CDF39AEF1CB3F771000A87A6 /* LYThemeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeImageView.m; sourceTree = "<group>"; };
+		CDF39AF11CB3F78B000A87A6 /* LYThemeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeUtil.h; sourceTree = "<group>"; };
+		CDF39AF21CB3F78B000A87A6 /* LYThemeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeUtil.m; sourceTree = "<group>"; };
+		CDF39AF41CB3F7A0000A87A6 /* LYThemeConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYThemeConst.h; sourceTree = "<group>"; };
+		CDF39B421CB3FE69000A87A6 /* LYThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYThemeViewController.h; sourceTree = "<group>"; };
+		CDF39B431CB3FE69000A87A6 /* LYThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYThemeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF39AA71CB3F052000A87A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39AC01CB3F052000A87A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39ACB1CB3F052000A87A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD50DA201CB409650076FC45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD50DA641CB409900076FC45 /* Skins */,
+				CD50DA211CB409650076FC45 /* background.png */,
+				CD50DA221CB409650076FC45 /* button_background.png */,
+				CD50DA231CB409650076FC45 /* button_background@2x.png */,
+				CD50DA241CB409650076FC45 /* button_delete_background.png */,
+				CD50DA251CB409650076FC45 /* button_delete_background@2x.png */,
+				CD50DA261CB409650076FC45 /* fontColor.plist */,
+				CD50DA271CB409650076FC45 /* navigationbar_back.png */,
+				CD50DA281CB409650076FC45 /* navigationbar_back@2x.png */,
+				CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */,
+				CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */,
+				CD50DA421CB409650076FC45 /* theme.plist */,
+				CD50DA431CB409650076FC45 /* title_logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDF39AA11CB3F052000A87A6 = {
+			isa = PBXGroup;
+			children = (
+				CDF39AAC1CB3F052000A87A6 /* ThemeChangeDemo */,
+				CDF39AC61CB3F052000A87A6 /* ThemeChangeDemoTests */,
+				CDF39AD11CB3F052000A87A6 /* ThemeChangeDemoUITests */,
+				CDF39AAB1CB3F052000A87A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF39AAB1CB3F052000A87A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF39AAA1CB3F052000A87A6 /* ThemeChangeDemo.app */,
+				CDF39AC31CB3F052000A87A6 /* ThemeChangeDemoTests.xctest */,
+				CDF39ACE1CB3F052000A87A6 /* ThemeChangeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF39AAC1CB3F052000A87A6 /* ThemeChangeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD50DA201CB409650076FC45 /* Resources */,
+				CDF39AE41CB3F16B000A87A6 /* Theme */,
+				CDF39AB01CB3F052000A87A6 /* AppDelegate.h */,
+				CDF39AB11CB3F052000A87A6 /* AppDelegate.m */,
+				CDF39AE01CB3F110000A87A6 /* LYMainViewController.h */,
+				CDF39AE11CB3F110000A87A6 /* LYMainViewController.m */,
+				CDF39B421CB3FE69000A87A6 /* LYThemeViewController.h */,
+				CDF39B431CB3FE69000A87A6 /* LYThemeViewController.m */,
+				CDF39AB61CB3F052000A87A6 /* Main.storyboard */,
+				CDF39AB91CB3F052000A87A6 /* Assets.xcassets */,
+				CDF39ABB1CB3F052000A87A6 /* LaunchScreen.storyboard */,
+				CDF39ABE1CB3F052000A87A6 /* Info.plist */,
+				CDF39AAD1CB3F052000A87A6 /* Supporting Files */,
+			);
+			path = ThemeChangeDemo;
+			sourceTree = "<group>";
+		};
+		CDF39AAD1CB3F052000A87A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF39AAE1CB3F052000A87A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF39AC61CB3F052000A87A6 /* ThemeChangeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF39AC71CB3F052000A87A6 /* ThemeChangeDemoTests.m */,
+				CDF39AC91CB3F052000A87A6 /* Info.plist */,
+			);
+			path = ThemeChangeDemoTests;
+			sourceTree = "<group>";
+		};
+		CDF39AD11CB3F052000A87A6 /* ThemeChangeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF39AD21CB3F052000A87A6 /* ThemeChangeDemoUITests.m */,
+				CDF39AD41CB3F052000A87A6 /* Info.plist */,
+			);
+			path = ThemeChangeDemoUITests;
+			sourceTree = "<group>";
+		};
+		CDF39AE41CB3F16B000A87A6 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CDF39AE51CB3F1D5000A87A6 /* LYThemeManager.h */,
+				CDF39AE61CB3F1D5000A87A6 /* LYThemeManager.m */,
+				CDF39AE81CB3F746000A87A6 /* LYThemeLabel.h */,
+				CDF39AE91CB3F746000A87A6 /* LYThemeLabel.m */,
+				CDF39AEB1CB3F75D000A87A6 /* LYThemeButton.h */,
+				CDF39AEC1CB3F75D000A87A6 /* LYThemeButton.m */,
+				CDF39AEE1CB3F771000A87A6 /* LYThemeImageView.h */,
+				CDF39AEF1CB3F771000A87A6 /* LYThemeImageView.m */,
+				CDF39AF11CB3F78B000A87A6 /* LYThemeUtil.h */,
+				CDF39AF21CB3F78B000A87A6 /* LYThemeUtil.m */,
+				CDF39AF41CB3F7A0000A87A6 /* LYThemeConst.h */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF39AA91CB3F052000A87A6 /* ThemeChangeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF39AD71CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemo" */;
+			buildPhases = (
+				CDF39AA61CB3F052000A87A6 /* Sources */,
+				CDF39AA71CB3F052000A87A6 /* Frameworks */,
+				CDF39AA81CB3F052000A87A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeChangeDemo;
+			productName = ThemeChangeDemo;
+			productReference = CDF39AAA1CB3F052000A87A6 /* ThemeChangeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF39AC21CB3F052000A87A6 /* ThemeChangeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF39ADA1CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemoTests" */;
+			buildPhases = (
+				CDF39ABF1CB3F052000A87A6 /* Sources */,
+				CDF39AC01CB3F052000A87A6 /* Frameworks */,
+				CDF39AC11CB3F052000A87A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF39AC51CB3F052000A87A6 /* PBXTargetDependency */,
+			);
+			name = ThemeChangeDemoTests;
+			productName = ThemeChangeDemoTests;
+			productReference = CDF39AC31CB3F052000A87A6 /* ThemeChangeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF39ACD1CB3F052000A87A6 /* ThemeChangeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF39ADD1CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemoUITests" */;
+			buildPhases = (
+				CDF39ACA1CB3F052000A87A6 /* Sources */,
+				CDF39ACB1CB3F052000A87A6 /* Frameworks */,
+				CDF39ACC1CB3F052000A87A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF39AD01CB3F052000A87A6 /* PBXTargetDependency */,
+			);
+			name = ThemeChangeDemoUITests;
+			productName = ThemeChangeDemoUITests;
+			productReference = CDF39ACE1CB3F052000A87A6 /* ThemeChangeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF39AA21CB3F052000A87A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CoderYLiu;
+				TargetAttributes = {
+					CDF39AA91CB3F052000A87A6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 342VP95RM8;
+					};
+					CDF39AC21CB3F052000A87A6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 342VP95RM8;
+						TestTargetID = CDF39AA91CB3F052000A87A6;
+					};
+					CDF39ACD1CB3F052000A87A6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 342VP95RM8;
+						TestTargetID = CDF39AA91CB3F052000A87A6;
+					};
+				};
+			};
+			buildConfigurationList = CDF39AA51CB3F052000A87A6 /* Build configuration list for PBXProject "ThemeChangeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF39AA11CB3F052000A87A6;
+			productRefGroup = CDF39AAB1CB3F052000A87A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF39AA91CB3F052000A87A6 /* ThemeChangeDemo */,
+				CDF39AC21CB3F052000A87A6 /* ThemeChangeDemoTests */,
+				CDF39ACD1CB3F052000A87A6 /* ThemeChangeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF39AA81CB3F052000A87A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50DA621CB409650076FC45 /* theme.plist in Resources */,
+				CDF39ABD1CB3F052000A87A6 /* LaunchScreen.storyboard in Resources */,
+				CD50DA481CB409650076FC45 /* button_delete_background@2x.png in Resources */,
+				CD50DA441CB409650076FC45 /* background.png in Resources */,
+				CDF39ABA1CB3F052000A87A6 /* Assets.xcassets in Resources */,
+				CD50DA451CB409650076FC45 /* button_background.png in Resources */,
+				CD50DA461CB409650076FC45 /* button_background@2x.png in Resources */,
+				CD50DA4A1CB409650076FC45 /* navigationbar_back.png in Resources */,
+				CD50DA471CB409650076FC45 /* button_delete_background.png in Resources */,
+				CDF39AB81CB3F052000A87A6 /* Main.storyboard in Resources */,
+				CD50DA631CB409650076FC45 /* title_logo.png in Resources */,
+				CD50DA4B1CB409650076FC45 /* navigationbar_back@2x.png in Resources */,
+				CD50DA4C1CB409650076FC45 /* navigationbar_back_highlighted.png in Resources */,
+				CD50DA651CB409900076FC45 /* Skins in Resources */,
+				CD50DA491CB409650076FC45 /* fontColor.plist in Resources */,
+				CD50DA4D1CB409650076FC45 /* navigationbar_back_highlighted@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39AC11CB3F052000A87A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39ACC1CB3F052000A87A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF39AA61CB3F052000A87A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF39AF01CB3F771000A87A6 /* LYThemeImageView.m in Sources */,
+				CDF39B441CB3FE69000A87A6 /* LYThemeViewController.m in Sources */,
+				CDF39AED1CB3F75D000A87A6 /* LYThemeButton.m in Sources */,
+				CDF39AB21CB3F052000A87A6 /* AppDelegate.m in Sources */,
+				CDF39AE21CB3F110000A87A6 /* LYMainViewController.m in Sources */,
+				CDF39AE71CB3F1D5000A87A6 /* LYThemeManager.m in Sources */,
+				CDF39AAF1CB3F052000A87A6 /* main.m in Sources */,
+				CDF39AF31CB3F78B000A87A6 /* LYThemeUtil.m in Sources */,
+				CDF39AEA1CB3F746000A87A6 /* LYThemeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39ABF1CB3F052000A87A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF39AC81CB3F052000A87A6 /* ThemeChangeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF39ACA1CB3F052000A87A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF39AD31CB3F052000A87A6 /* ThemeChangeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF39AC51CB3F052000A87A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF39AA91CB3F052000A87A6 /* ThemeChangeDemo */;
+			targetProxy = CDF39AC41CB3F052000A87A6 /* PBXContainerItemProxy */;
+		};
+		CDF39AD01CB3F052000A87A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF39AA91CB3F052000A87A6 /* ThemeChangeDemo */;
+			targetProxy = CDF39ACF1CB3F052000A87A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF39AB61CB3F052000A87A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF39AB71CB3F052000A87A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF39ABB1CB3F052000A87A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF39ABC1CB3F052000A87A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF39AD51CB3F052000A87A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDF39AD61CB3F052000A87A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF39AD81CB3F052000A87A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThemeChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDF39AD91CB3F052000A87A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThemeChangeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDF39ADB1CB3F052000A87A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThemeChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChangeDemo.app/ThemeChangeDemo";
+			};
+			name = Debug;
+		};
+		CDF39ADC1CB3F052000A87A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThemeChangeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChangeDemo.app/ThemeChangeDemo";
+			};
+			name = Release;
+		};
+		CDF39ADE1CB3F052000A87A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThemeChangeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeChangeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDF39ADF1CB3F052000A87A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThemeChangeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeChangeDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF39AA51CB3F052000A87A6 /* Build configuration list for PBXProject "ThemeChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF39AD51CB3F052000A87A6 /* Debug */,
+				CDF39AD61CB3F052000A87A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF39AD71CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF39AD81CB3F052000A87A6 /* Debug */,
+				CDF39AD91CB3F052000A87A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF39ADA1CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF39ADB1CB3F052000A87A6 /* Debug */,
+				CDF39ADC1CB3F052000A87A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF39ADD1CB3F052000A87A6 /* Build configuration list for PBXNativeTarget "ThemeChangeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF39ADE1CB3F052000A87A6 /* Debug */,
+				CDF39ADF1CB3F052000A87A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF39AA21CB3F052000A87A6 /* Project object */;
+}
