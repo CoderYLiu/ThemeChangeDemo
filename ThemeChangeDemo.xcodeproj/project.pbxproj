@@ -18,8 +18,8 @@
 		CD50DA4C1CB409650076FC45 /* navigationbar_back_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */; };
 		CD50DA4D1CB409650076FC45 /* navigationbar_back_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */; };
 		CD50DA621CB409650076FC45 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA421CB409650076FC45 /* theme.plist */; };
-		CD50DA631CB409650076FC45 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA431CB409650076FC45 /* title_logo.png */; };
 		CD50DA651CB409900076FC45 /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = CD50DA641CB409900076FC45 /* Skins */; };
+		CDE539931EA7220300454844 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE539921EA7220300454844 /* title_logo.png */; };
 		CDF39AAF1CB3F052000A87A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AAE1CB3F052000A87A6 /* main.m */; };
 		CDF39AB21CB3F052000A87A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF39AB11CB3F052000A87A6 /* AppDelegate.m */; };
 		CDF39AB81CB3F052000A87A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF39AB61CB3F052000A87A6 /* Main.storyboard */; };
@@ -65,8 +65,8 @@
 		CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_back_highlighted.png; sourceTree = "<group>"; };
 		CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back_highlighted@2x.png"; sourceTree = "<group>"; };
 		CD50DA421CB409650076FC45 /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
-		CD50DA431CB409650076FC45 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 		CD50DA641CB409900076FC45 /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
+		CDE539921EA7220300454844 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 		CDF39AAA1CB3F052000A87A6 /* ThemeChangeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeChangeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF39AAE1CB3F052000A87A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDF39AB01CB3F052000A87A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				CD50DA291CB409650076FC45 /* navigationbar_back_highlighted.png */,
 				CD50DA2A1CB409650076FC45 /* navigationbar_back_highlighted@2x.png */,
 				CD50DA421CB409650076FC45 /* theme.plist */,
-				CD50DA431CB409650076FC45 /* title_logo.png */,
+				CDE539921EA7220300454844 /* title_logo.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -290,12 +290,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LY;
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = CoderYLiu;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DeveloperLY;
 				TargetAttributes = {
 					CDF39AA91CB3F052000A87A6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 342VP95RM8;
+						DevelopmentTeam = VW6LLKQB96;
 					};
 					CDF39AC21CB3F052000A87A6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -337,6 +337,7 @@
 				CD50DA621CB409650076FC45 /* theme.plist in Resources */,
 				CDF39ABD1CB3F052000A87A6 /* LaunchScreen.storyboard in Resources */,
 				CD50DA481CB409650076FC45 /* button_delete_background@2x.png in Resources */,
+				CDE539931EA7220300454844 /* title_logo.png in Resources */,
 				CD50DA441CB409650076FC45 /* background.png in Resources */,
 				CDF39ABA1CB3F052000A87A6 /* Assets.xcassets in Resources */,
 				CD50DA451CB409650076FC45 /* button_background.png in Resources */,
@@ -344,7 +345,6 @@
 				CD50DA4A1CB409650076FC45 /* navigationbar_back.png in Resources */,
 				CD50DA471CB409650076FC45 /* button_delete_background.png in Resources */,
 				CDF39AB81CB3F052000A87A6 /* Main.storyboard in Resources */,
-				CD50DA631CB409650076FC45 /* title_logo.png in Resources */,
 				CD50DA4B1CB409650076FC45 /* navigationbar_back@2x.png in Resources */,
 				CD50DA4C1CB409650076FC45 /* navigationbar_back_highlighted.png in Resources */,
 				CD50DA651CB409900076FC45 /* Skins in Resources */,
@@ -450,8 +450,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -473,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -493,8 +495,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -510,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -521,9 +525,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
 				INFOPLIST_FILE = ThemeChangeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerLY.ThemeChangeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -532,9 +537,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
 				INFOPLIST_FILE = ThemeChangeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoderYLiu.ThemeChangeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerLY.ThemeChangeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
